@@ -1,0 +1,24 @@
+body{
+	background-color: #BDB76B;
+	}
+	
+#links{
+	margin: auto;
+	background-color: white;
+	max-width: 500px;
+	text-align: center;
+	}
+	
+#pageHeader{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}
+	
+.holder{
+	text-align: center;
+	}
+	
+#sendMessage{
+	visibility: hidden;
+}

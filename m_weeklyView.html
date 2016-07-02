@@ -1,0 +1,36 @@
+<style>
+	.dayHolder{
+		height: 100%;
+		width: 100%;
+		vertical-align: top;
+		min-width: 80px;
+		}
+		
+	
+	table{
+		vertical-align: top;
+		table-layout: fixed;
+	}
+	
+	td{
+		vertical-align: top;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+</style>
+
+<link href="m_innerStyle.css" rel="stylesheet" />
+
+<script src="m_weeklyView.js"></script>
+
+<body onload="loadWeek()">
+	<table style="table-layout: fixed; width: 93%;" cellspacing="1" cellpadding="0">
+		<tr>
+			<td><div class="dayHolder"><table id="day1"></table></div></td>
+			<td><div class="dayHolder"><table id="day2"></table></div></td>
+			<td><div class="dayHolder"><table id="day3"></table></div></td>
+			<!-- <td><div class="dayHolder"><table id="day6"></table></div></td> -->
+			<!-- <td><div class="dayHolder"><table id="day7"></table></div></td> -->
+		</tr>
+	</table>
+</body>

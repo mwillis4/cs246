@@ -1,0 +1,38 @@
+<link href="checkStyle.css" rel="stylesheet" />
+
+<head>
+	<script src="deleteCheck.js"></script>
+</head>
+
+<body onload="loading()">
+	<h1>Would you like to delete... </h1>
+	
+	<table>
+		<tr>
+			<td><h3>Name: </h3></td>
+			<td><h3 id="nameText"></h3></td>
+		</tr>
+		<tr>
+			<td><h3>Category: </h3></td>
+			<td><h3 id="categoryText"></h3></td>
+		</tr>
+		<tr>
+			<td><h3>Due Date: </h3></td>
+			<td><h3 id="dueDateText"></h3></td>
+		</tr>
+		<tr>
+			<td><h3>Comments: </h3></td>
+			<td><h3 id="commentsText"></h3></td>
+		</tr>
+	</table>
+	
+	<div style="margin: auto; text-align: center; margin-top: 5px">
+		<div class="operationButton" onclick="yesClick()">
+			<b>Yes</b>
+		</div>
+	
+		<div class="operationButton" onclick="noClick()">
+			<b>No</b>
+		</div>
+	<div>
+</body>

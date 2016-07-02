@@ -1,0 +1,17 @@
+body{
+	height: 80%;
+	font-family: Verdana;
+	text-align: center;
+	margin-top: 30px
+}
+
+input {
+	width: 172px;
+	font-family: Verdana;
+	}
+	
+select {
+	width: 172px;
+	font-family: Verdana;
+	height: 22px;
+	}

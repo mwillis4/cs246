@@ -1,0 +1,41 @@
+<style>
+	#adjustmentHolder {
+		text-align: center;
+		margin-top: 20px
+	}
+	
+	#buttonHolder {
+		margin-top: 10px;
+		}
+		
+	td{
+		text-align: center;
+	}
+	
+</style>
+
+<link href="m_innerStyle.css" rel="stylesheet" />
+
+<body onload="loadSettings()">
+	<table style= "width:100%">
+	<tr style="max-height: 70%; overflow-y: auto;">
+	<div style="max-height: 87%; overflow-y: auto; vertical-align:top; text-align: center" id="catTableHolder">
+		
+	</div>
+	
+	</tr>
+	<tr style="border-top: 1px black solid">
+	
+	<div id="buttonHolder" style="text-align: center;">
+		<div class="operationButton" id="addButton" onclick="add()"><img src="User-Interface-Plus-icon.png"></img></div>
+		<div class="operationButton" id="deleteButton" onclick="deletingCateogry()"><img src="Programming-Delete-Sign-icon.png"></img></div>
+		<div class="operationButton" id="editButton" onclick="edit()"><img src="Editing-Edit-icon.png"></div>
+	</div>	
+	
+	<div id="noticeHolder">
+		<h2 id="notice" >No Item Selected</h2>
+	</div>
+	
+	</tr>
+	<script src="m_settingsView.js"></script>
+</body>

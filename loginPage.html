@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<link href="loginPage.css" rel="stylesheet" />
+
+<head>
+    <title>Login</title>
+	<link rel="icon" 
+      type="image/png" 
+      href="logo.png">
+</head>
+
+<body>
+	<span>
+		<h3>LOGIN</h3>
+	</span>
+	<div>
+		<table>
+			<tr>
+				<td>Username:<td> 
+				<td><input id="userName" type="text"/><td>
+			</tr>
+			<tr>
+				<td>Password:<td> 
+				<td><input id="password" type="password"/> <td>
+			</tr>
+		</table>
+		<br>
+		<button id="loginButton" onclick="loginClick()">Login</button>
+		<h5 id="badMember"></h5>
+	</div>
+	<span>
+		<h3>OR</h3>
+	</span>
+	<div id="newMemberHolder">
+		<table>
+			<tr>
+				<td>Create New Username: </td>
+				<td><input id="newUserName" type="text"/></td>
+			</tr>
+			<tr>
+				<td>Enter Password: </td>
+				<td><input id="newPassword" type="password"/></td>
+			</tr>
+			<tr>
+				<td>Confirm Password: </td>
+				<td><input id="confirmPassword" type="password"/></td>
+			</tr>
+		</table>
+		<button id="signUpButton" onclick="newMember()">Sign Up</button>
+		<h5 id="badNewMember"></h5>
+	<div>
+</body>
+	<script src="loginPage.js">
+	</script>
+
+</html>

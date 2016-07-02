@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<link href="newCategory.css" rel="stylesheet" />
+	<script src="newCategory.js">
+	</script>
+
+<head>
+    <title>New User</title>
+</head>
+
+<body onload="clearBoxes()">
+	<div  id="controlHolder">
+		<div id = "adjustmentHolder">
+		<h3>Welcome To ASM Programming</h3>
+		<h6>To help you get started let's create your first category. Each category has both a name and a color to help keep you organized. Name your first category give it a color and press add to create you first category. In the future new categories can be created in the categories tab</h6>
+		<table style="margin: auto;">
+			<tr>
+				<td>Category Name: </td>
+				<td><input type="text" id="catText"/></td>
+			</tr>
+			<tr>
+				<td>Category Color: </td>
+				<td><input type="color" onchange="updateColor()" id="colorPick"/></td>
+			</tr>
+		</table>
+		<div id="buttonHolder">
+			<div class="operationButton" id="addButton" onclick="add()"><b>Add Category</b></div>
+			<div class="operationButton" id="addButton" onclick="clearBoxes()"><b>Clear</b></div>
+		</div>	
+	</div>
+</body>
+
+
+</html>

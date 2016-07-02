@@ -1,0 +1,34 @@
+<link href="innerStyle.css" rel="stylesheet" />
+<head>
+	<script src="allTasks.js"></script>
+</head>
+<body onload="loadAllTasks()">
+<div style="margin: auto; vertical-align: top;" id="TasksHolder">
+
+</div>
+
+<hr>
+
+<div style="margin: auto; text-align: center; margin-top: 5px">
+	<div class="operationButton" onclick="addClick()">
+		<b>Add</b>
+	</div>
+	
+	<div class="operationButton" onclick="deleteClick()">
+		<b>Delete</b>
+	</div>
+	
+	<div class="operationButton" onclick="editClick()">
+		<b>Edit</b>
+	</div>
+	
+	<div class="operationButton" onclick="pendingClick()">
+		<b>Pending</b>
+	</div>
+</div>
+
+<div id="noticeHolder">
+	<h2 id="notice" >No Item Selected</h2>
+</div>
+
+</body>

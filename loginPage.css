@@ -1,0 +1,45 @@
+body {
+	text-align: center;
+	font-size: 20px;
+	background-color: #DCEDDE;
+	height: 100%;
+	font-family: Verdana;
+	}
+	
+table {
+	margin: auto;
+	}
+	
+button {
+	background-color: white;
+	border: none;
+	background: linear-gradient(#028110, white);
+	font-size: 20px;
+	width: 100px;
+	margin-bottom: 20px;
+	}
+	
+div {
+	border: 1px black solid;
+	width: 500px;
+	margin: auto;
+	margin-top: 20px;
+	background-color: white;
+	}
+	
+td{
+	text-align: left;
+}
+
+#signUpButton {
+	margin-top: 20px;
+}
+
+h5 {
+	color: red;
+	}
+	
+.mobileDiv{
+	width: 90%;
+	vertical-align: middle;
+	}

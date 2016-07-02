@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<link href="newTask.css" rel="stylesheet" />
+	<script src="newTask.js">
+	</script>
+
+<head>
+    <title>New User</title>
+</head>
+
+<body onload="loading()">
+	<div  id="controlHolder">
+		<div id = "adjustmentHolder">
+		<h3>Almost Done...</h3>
+		<h6>Last thing you need to do is to set up your first task.</h6>
+		<table id="itemTable" >
+			<tr>
+				<td>Task Name</td>
+				<td><input type="text" name id="nameText" class="textInput"/></td>
+			</tr>
+			<tr>
+				<td>Category</td>
+				<td><select id="category" class="textInput"></select></td>
+			</tr>
+			<tr>
+				<td>Due Date</td>
+				<td><input type="date" id="dueDate" class="textInput"/></td>
+			</tr>
+			<tr>
+				<td>Due Time</td>
+				<td><input type="time" id="dueTime" class="textInput"/></td>
+			</tr>
+			<tr>
+				<td>
+				</td>
+				<td>
+					<div id="radios">
+						<input type="radio" id="nowRadio" name="timeRadios" checked/>Now
+						<input type="radio" id="noonRadio" name="timeRadios"/>Noon
+						<input type="radio" id="midnightRadio" name="timeRadios"/>Midnight
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>Comments</td>
+				<td ><textarea id = "comments" value="" rows="10" cols="20"></textarea></td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<div id="buttonHolder">
+		<div class="operationButton" onclick="submitItem()"><b>Submit</b></div>
+		<div class="operationButton" onclick="reset()"><b>Reset</b></div>
+		</div>
+	</div>
+</body>
+
+
+</html>

@@ -1,0 +1,47 @@
+<link href="m_innerStyle.css" rel="stylesheet" />
+
+<style>
+			img{
+		height: 30px;
+		width: 30px;
+		padding: 2px;
+	}
+	
+	.operationButton{
+		display: inline-block;
+		vertical-align: bottom;
+		border: 1px black solid;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		background-color: #58AB61;
+		border-radius: 7px;
+	
+		text-align: center;
+	
+		cursor: default;
+	}
+</style>
+<head>
+	<script src="m_settingsDeleteCheck.js"></script>
+</head>
+
+<body onload="loading()">
+	<h3>Would you like to delete... </h3>
+	
+	<table>
+		<tr>
+			<td><h5>Category: </h5></td>
+			<td><h5 id="categoryText"></h5></td>
+		</tr>
+	</table>
+	
+	<div style="margin: auto; text-align: center; margin-top: 5px">
+		<div class="operationButton" onclick="yesClick()">
+			<img src="Check-icon.png"/>
+		</div>
+	
+		<div class="operationButton" onclick="noClick()">
+			<img src="Programming-Delete-Sign-icon.png"/>
+		</div>
+	<div>
+</body>

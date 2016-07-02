@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<link href="m_addEdit.css" rel="stylesheet" />
+
+<style>
+	img{
+		height: 30px;
+		width: 30px;
+		padding: 2px;
+	}
+	
+	.operationButton{
+		display: inline-block;
+		vertical-align: bottom;
+		border: 1px black solid;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		background-color: #58AB61;
+		border-radius: 7px;
+	
+		text-align: center;
+	
+		cursor: default;
+	}
+</style>
+
+<body onload="loading()">
+	
+		<table id="itemTable">
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name id="nameText"/></td>
+			</tr>
+			<tr>
+				<td>Contents</td>
+				<td ><textarea id = "contentsText" value="" rows="10" cols="19"></textarea></td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<div id="buttonHolder">
+			<div class="operationButton" id="addButton" onclick="submitItem() "><img src="User-Interface-Plus-icon.png"/></div>
+			<div class="operationButton" id="editButton" onclick="reset()"><img src="Computer-Hardware-Restart-icon.png"/></div>
+			<div class="operationButton"  id="deleteButton" onclick="cancel()"><img src="Programming-Delete-Sign-icon.png"/></div>
+	</div>	
+
+		<h2 id="notice" >No Item Selected</h2>
+	
+	<script src="m_noteAddEdit.js"></script>
+</body>
+</html>

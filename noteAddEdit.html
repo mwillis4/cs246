@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<link href="addEdit.css" rel="stylesheet" />
+
+<body onload="loading()">
+	
+		<table id="itemTable">
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name id="nameText"/></td>
+			</tr>
+			<tr>
+				<td>Contents</td>
+				<td ><textarea id = "contentsText" value="" rows="10" cols="19"></textarea></td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<div class="operationButton" onclick="submitItem()"><b>Submit</b></div>
+		<div class="operationButton" onclick="reset()"><b>Reset</b></div>
+		<div class="operationButton" onclick="cancel()"><b>Cancel</b></div>
+
+		<h2 id="notice" >No Item Selected</h2>
+	
+	<script src="noteAddEdit.js"></script>
+</body>
+</html>

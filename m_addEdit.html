@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<link href="m_addEdit.css" rel="stylesheet" />
+
+<style>
+	.buttonLabel {
+		display: inline-block;
+		font-size: 10px;
+		vertical-align: middle;
+		}
+		
+		img{
+		height: 30px;
+		width: 30px;
+		padding: 2px;
+	}
+	
+	.operationButton{
+		display: inline-block;
+		vertical-align: bottom;
+		border: 1px black solid;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		background-color: #58AB61;
+		border-radius: 7px;
+	
+		text-align: center;
+	
+		cursor: default;
+	}
+</style>
+<body onload="loading()">
+	
+		<table id="itemTable">
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name id="nameText" class="textInput" placeholder="Task Name"/></td>
+			</tr>
+			<tr>
+				<td>Category</td>
+				<td><select id="category" class="textInput"></select></td>
+			</tr>
+			<tr>
+				<td>Due Date</td>
+				<td><input type="date" id="dueDate" class="textInput"/></td>
+			</tr>
+			<tr>
+				<td>Due Time</td>
+				<td><input type="time" id="dueTime" class="textInput"/></td>
+			</tr>
+			<tr>
+				<td>
+				</td>
+				<td>
+					<div id="radios">
+						<input type="radio" id="nowRadio" name="timeRadios" checked /><div class="buttonLabel">Now</div>
+						<input type="radio" id="noonRadio" name="timeRadios"/><div class="buttonLabel">Noon</div>
+						<input type="radio" id="midnightRadio" name="timeRadios"/><div class="buttonLabel">Midnight</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>Comments</td>
+				<td ><textarea id = "comments" value="" rows="5" cols="20"></textarea></td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<div class="operationButton" onclick="submitItem()"><img src="User-Interface-Plus-icon.png"/></div>
+		<div class="operationButton" onclick="reset()"><img src="Computer-Hardware-Restart-icon.png"/></div>
+		<div class="operationButton" onclick="cancel()"><img src="Programming-Delete-Sign-icon.png"/></div>
+
+		<h2 id="notice" hidden>No Item Selected</h2>
+	
+	<script src="m_addEdit.js"></script>
+</body>
+</html>

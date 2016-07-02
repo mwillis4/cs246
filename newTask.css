@@ -1,0 +1,99 @@
+body {
+	font-size: 12px;
+	background-color: #DCEDDE;
+	height: 100%;
+	font-family: Verdana;
+	}
+	
+	.operationButton{
+	display: inline-block;
+	vertical-align: bottom;
+	border: 1px black solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #58AB61;
+	border-radius: 7px;
+	
+	text-align: center;
+	
+	width: 100px;
+	height: 25px;
+	
+	padding-top: 10px;
+	
+	cursor: default;
+	}
+	
+	.operationButton:active{
+		background-color: black;
+		color: white;
+	}
+	
+	table{
+		border-radius: 7px;
+		margin: auto;
+		border-collapse: collapse;
+		border-spacing: 0px;
+	}
+
+	
+	.myDateTime{
+		display: inline-block;
+		margin-right: 10px;
+	}
+	
+	#notice{
+		color: red;
+	}
+	
+	#noticeHolder{
+		text-align: center;
+		visibility: hidden;
+	}
+	
+	#buttonHolder{
+		text-align: center;
+	}
+	
+		#controlHolder
+	{
+		border: 1px black solid;
+		padding: 20px;
+			width: 500px;
+
+	}
+	
+	div {
+
+	margin: auto;
+	margin-top: 20px;
+	background-color: white;
+	}
+	
+		h3{
+		font-size: 20px;
+		text-align: center;
+		}
+		
+	h6 {
+		font-size: 13px;
+		text-align: center;
+		}
+		
+		.textInput{
+	width: 172px;
+	font-family: Verdana;
+	}
+	
+	textarea{
+	font-family: Verdana;
+}
+
+	select{
+		width: 176px;
+	}
+	
+		td {
+		padding-top: 10px;
+		vertical-align: top;
+	}

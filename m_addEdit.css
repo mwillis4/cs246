@@ -1,0 +1,38 @@
+body{
+	height: 80%;
+	font-family: Verdana;
+	text-align: center;
+	margin-top: 30px
+}
+
+.textInput{
+	width: 172px;
+	font-family: Verdana;
+	}
+	
+table{
+	margin: auto;
+}
+
+textarea{
+	font-family: Verdana;
+}
+
+	.operationButton:active{
+		background-color: black;
+		color: white;
+	}
+	
+	#notice{
+		color: red;
+		visibility: hidden;
+	}
+	
+	td {
+		padding-top: 10px;
+		vertical-align: top;
+	}
+	
+	select{
+		width: 176px;
+	}

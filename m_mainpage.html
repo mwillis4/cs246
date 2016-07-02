@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<link href="mainpage.css" rel="stylesheet" />
+<link href="m_mainpage.css" rel="stylesheet" />
+<head>
+    <title>ASM Planning</title>
+</head>
+
+<body onload="changeAllTask()">
+<!-- 		<table>
+			<tr>
+				<td>
+					<div id="loginHolder">
+						<div id="welcome">Hi User!</div>
+						<a href="loginPage.html">Sign Out</a>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div> -->
+	<table id="allHolder">
+	<tr style="height: 90%; table-layout: fixed;">
+		<td colspan="7">
+			<iframe id="viewHolder">
+			</iframe>	
+		</td>
+	</tr>
+	<tr class="mobileViewsCol">
+		<td><div class = "mobileView" id = "mobileAllTask" onclick="changeAllTask()"><img src="todo-icon.png"></img></div></td>
+		<td><div class = "mobileView" id = "mobileDailyView" onclick="changeDaily()"><img src="Time-Today-icon.png"></img></div></td>
+		<td><div class = "mobileView" id = "mobileWeekly" onclick="changeWeekly()"><img src="Time-And-Date-Week-View-icon.png"></img></div></td>
+		<td><div class = "mobileView" id = "mobileNotes" onclick="changeNotes()"><img src="Text-Document-icon.png"></img></div></td>
+		<td><div class = "mobileView" id = "mobileCategories" onclick="changeSetting()"><img src="settings-icon.png"></img></div></td>
+	</tr>
+
+	
+	<script src="m_mainpage.js"></script>
+	
+</body>
+</html>

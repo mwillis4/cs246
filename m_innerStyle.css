@@ -1,0 +1,108 @@
+	body {
+		font-family: Verdana;
+		font-size:20px;
+		overflow: hidden;
+		cursor: default;
+		width: 100%;
+	}	
+	
+	.operationButton{
+	display: inline-block;
+	vertical-align: bottom;
+	border: 1px black solid;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #58AB61;
+	border-radius: 7px;
+	
+	text-align: center;
+	
+	cursor: default;
+	}
+	
+	.operationButton:active{
+		background-color: black;
+		color: white;
+	}
+	
+	th{
+		font-size: 20px;
+		border-bottom: 5px black solid;	
+		background-color: black;
+		color: white;
+		padding-right: 5px;
+		padding-left: 5px;
+		padding-bottom: 5px;
+
+	}
+
+	.item	{
+		padding-bottom: 10px;
+		padding-top: 10px;
+		
+		border-top: 1px black solid;
+		height: 40px;
+		
+		transition: height 1s;
+		
+		
+	}
+	
+	.item:hover { 
+		opacity: .7;
+	}
+	
+	td {
+		display: block;
+		
+		padding-right: 10px;
+		padding-left: 10px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+	
+	table{
+		border-radius: 7px;
+		
+		border-collapse: collapse;
+		border-spacing: 0px;
+		width: 100%;
+		display: inline-block;
+	}
+
+	#TasksHolder{
+		max-height: 82%;
+		max-width: 90%;
+		overflow-y: auto;
+		overflow-x: hidden;
+		display: block;
+	}
+	
+	.myDateTime{
+		display: inline-block;
+		margin-right: 10px;
+	}
+	
+	#notice{
+		color: red;
+	}
+	
+	#noticeHolder{
+		text-align: center;
+		visibility: hidden;
+	}
+	
+	tr {
+		min-height: 10px;
+	}
+	
+	#buttonHolder{
+		text-align: center;
+	}
+	
+	img{
+		height: 30px;
+		width: 30px;
+		padding: 2px;
+	}

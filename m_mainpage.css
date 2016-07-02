@@ -1,0 +1,106 @@
+#mobileAllTask {
+	transition: background-color 1s;
+	border: 1px solid white;
+	border-bottom-left-radius:10px;
+		background-color: black;
+	color: white;
+}
+
+#mobileAllTask:active {
+	background-color: #028110;
+}
+
+#mobileDailyView{
+	transition: background-color 1s;
+	border: 1px solid white;
+		background-color: black;
+	color: white;
+}
+
+#mobileDailyView:active {
+	background-color: #028110;
+}
+
+#mobileWeekly{
+	transition: background-color 1s;
+	border: 1px solid white;
+		background-color: black;
+	color: white;
+}
+
+#mobileWeekly:active {
+	background-color: #028110;
+}
+
+#mobileToDoList{
+	transition: background-color 1s;
+	border:1px solid white;
+		background-color: black;
+	color: white;
+}
+
+#mobileToDoList:active {
+	background-color: #028110;
+}
+
+#mobilePending{
+	transition: background-color 1s;
+	border: 1px solid white;
+		background-color: black;
+	color: white;
+}
+
+#mobilePending:active {
+	background-color: #028110;
+	padding-right: 15px;
+}
+
+#mobileNotes{
+	transition: background-color 1s;
+	border: 1px solid white;
+		background-color: black;
+	color: white;
+}
+
+#mobileNotes:active {
+	background-color: #028110;
+}
+
+#mobileCategories{
+	transition: background-color 1s;
+	border: 1px solid white;
+	border-bottom-right-radius:10px;
+		background-color: black;
+	color: white;
+}
+
+#mobileCategories:active {
+	background-color: #028110;
+}
+
+.mobileView{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}
+	
+img{
+	width: 30px;
+	height: 30px;
+	margin: auto;
+}
+	
+	body{
+		height: 95%;
+		}
+		
+	html
+	{
+		height: 99%;
+		}
+		
+	#allHolder{
+		height: 100%;
+		}
+		
+	

@@ -1,0 +1,36 @@
+	body {
+		font-family: Verdana;
+		font-size:12px;
+		
+		cursor: default;
+		
+		width: 50%;
+		
+		margin: auto;
+		
+		margin-top: 30px;
+	}	
+	
+	.operationButton{
+	display: inline-block;
+	vertical-align: bottom;
+	border: 1px black solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #58AB61;
+	border-radius: 7px;
+	
+	text-align: center;
+	
+	width: 100px;
+	height: 25px;
+	
+	padding-top: 10px;
+	
+	cursor: default;
+	}
+	
+	.operationButton:active{
+		background-color: black;
+		color: white;
+	}

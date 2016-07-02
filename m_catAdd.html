@@ -1,0 +1,42 @@
+<style>
+	#adjustmentHolder {
+		text-align: center;
+		margin-top: 20px
+	}
+	
+	#buttonHolder {
+		margin-top: 10px;
+		}
+		
+	td{
+		text-align: center;
+	}
+	
+	input{
+		margin: auto;
+		}
+</style>
+
+<link href="m_innerStyle.css" rel="stylesheet" />
+
+<body onload="loadSettings()">
+	<table style= "width:100%">
+	<td style= "width: 50%; vertical-align: middle; text-align: center; margin: auto">
+	<div id = "adjustmentHolder">
+		<table style="margin: auto; width: 50%; text-align: center; margin: auto">
+			<tr>
+				<td><input type="text" id="catText" placeholder="Category Name"></td>
+			</tr>
+			<tr>
+				<td>Category Color: <input type="color" onchange="updateColor()" id="colorPick"></td>
+			</tr>
+		</table>
+		<div id="buttonHolder">
+			<div class="operationButton" id="addButton" onclick="add()"><img src="User-Interface-Plus-icon.png"></img></div>
+			<div class="operationButton" id="addButton" onclick="clearBoxes()"><img src="Computer-Hardware-Restart-icon.png"></img></div>
+		</div>	
+		
+	</div>
+	</td>
+	<script src="settingsView.js"></script>
+</body>

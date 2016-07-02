@@ -1,0 +1,27 @@
+<style>
+	#dateHolder, #dayHolder {
+		text-align: center;
+		margin: auto;
+	}
+	
+	#dayHolder {
+		height: 90%;
+		display: block;
+	}
+	
+</style>
+
+<script src="dailyView.js"></script>
+
+<link href="innerStyle.css" rel="stylesheet" />
+
+<body onload="onOpen()">
+	<div id="dateHolder">
+		Select a Date: <input type="date" onchange="loadDate()" id="datePicker">
+	</div>
+	
+	<hr>
+	
+	<div id="dayHolder">
+
+	</div>

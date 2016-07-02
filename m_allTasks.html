@@ -1,0 +1,30 @@
+<link href="m_innerStyle.css" rel="stylesheet" />
+<head>
+	<script src="m_allTasks.js"></script>
+</head>
+<body onload="loadAllTasks()">
+<div style="margin: auto; vertical-align: top;" id="TasksHolder">
+
+</div>
+
+<hr>
+
+<div style="margin: auto; text-align: center; margin-top: 5px">
+	<div class="operationButton" onclick="addClick()">
+		<b><img src="User-Interface-Plus-icon.png"></img></b>
+	</div>
+	
+	<div class="operationButton" onclick="deleteClick()">
+		<b><img src="Programming-Delete-Sign-icon.png"></img></b>
+	</div>
+	
+	<div class="operationButton" onclick="editClick()">
+		<b><img src="Editing-Edit-icon.png"></b>
+	</div>
+</div>
+
+<div id="noticeHolder">
+	<h2 id="notice" >No Item Selected</h2>
+</div>
+
+</body>
