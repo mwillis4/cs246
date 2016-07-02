@@ -1,0 +1,62 @@
+<?xhtml version="1.0" encoding = "utf-8"?>
+<!DOCTYPE html>
+<html>
+<link href="homepage.css" rel="stylesheet" />
+
+<head>
+    <title>Morgan Willis' Project</title>
+</head>
+
+<body>
+    <!-- The title at the top of the page -->
+    <header id = "pageHeader">
+		<h1>Projects</h1>
+	</header>
+	
+	<hr>
+
+	<div id="links">
+		<a href = "helloWorld.php">Hello World</a>
+		<br>
+		<a href = "survey.html">PHP Survey</a>
+		<br>
+		<a href = "loginPage.html">Planner</a>
+		<br>
+		<a href= "signIn.jsp">JSP Discussion</a>
+		<br>
+		<a href= "javaTestPage.html">CS313 Plays Pokemon</a>
+		<br>		
+		<a href = "tra1.html">Team Readiness Activity 1</a>
+		<br>
+		<a href = "firstSQL.php">Team Readiness Activity 2</a>
+		<br>
+		<a href="appPage.html">App Page</a>
+		<p>More projects are soon to come!</p>
+	</div>
+	
+	<p style="text-align: center">Please leave any comments on any projects you have viewed</p>
+	
+	<div style="text-align:center">
+		<textarea id = "Feedback" value="" rows="4" cols="68"></textarea><br>
+		<button onclick="sendTheMessage()">Send</button>
+		<button onclick="clearTheMessage()">Clear</button>
+	</div>
+	
+	<h3 style="text-align: center;" id="sendMessage">Message has been Sent</h3>
+	
+	<script>
+		function sendTheMessage()
+		{
+			document.getElementById("sendMessage").style.visibility = "visible";
+			document.getElementById("Feedback").value = "";
+		}
+		
+		function clearTheMessage()
+		{
+			document.getElementById("Feedback").value = "";
+			document.getElementById("sendMessage").style.visibility = "hidden";
+		}
+	</script>
+	
+</body>
+</html>

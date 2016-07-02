@@ -1,0 +1,64 @@
+<style>
+	.operationButton{
+	font-size: 12px;
+	
+	width: 123px;
+	height: 25px;
+	}
+
+	
+	#adjustmentHolder {
+		text-align: center;
+		margin-top: 20px
+	}
+	
+	#buttonHolder {
+		margin-top: 10px;
+		}
+		
+	td{
+		text-align: center;
+	}
+	
+</style>
+
+<link href="innerStyle.css" rel="stylesheet" />
+
+<body onload="loadSettings()">
+	<table style= "width:100%">
+	<td style= "width: 50%; border-right: 1px solid black; vertical-align: top">
+	<div id = "adjustmentHolder">
+		<table style="margin: auto; width: 50%">
+			<tr>
+				<td>Category Name: </td>
+				<td><input type="text" id="catText"></td>
+			</tr>
+			<tr>
+				<td>Category Color: </td>
+				<td><input type="color" onchange="updateColor()" id="colorPick"></td>
+			</tr>
+		</table>
+		<div id="buttonHolder">
+			<div class="operationButton" id="addButton" onclick="add()"><b>Add Category</b></div>
+			<div class="operationButton" id="addButton" onclick="clearBoxes()"><b>Clear</b></div>
+		</div>	
+		
+	</div>
+	</td>
+	<td>
+	<div style="vertical-align:top; text-align: center" id="catTableHolder">
+		
+	</div>
+	
+	<div id="buttonHolder">
+		<div class="operationButton" id="editButton" onclick="edit()"><b>Edit</b></div>
+		<div class="operationButton" id="deleteButton" onclick="deletingCateogry()"><b>Delete</b></div>
+	</div>	
+	
+	<div id="noticeHolder">
+		<h2 id="notice" >No Item Selected</h2>
+	</div>
+	
+	</td>
+	<script src="settingsView.js"></script>
+</body>

@@ -1,0 +1,29 @@
+span{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 80px;
+	color: white;
+	padding: 20px;
+	}
+	
+#header {
+	background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+	}
+	
+.question{
+	margin-left: 25px;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+	
+button {
+	margin-top: 20px;
+	margin-left: 20px;
+	}
+	
+td {
+	width: 300px;
+	}
+	
+h5 {
+	margin-left: 30px;
+	}

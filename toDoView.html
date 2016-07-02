@@ -1,0 +1,106 @@
+<link href="innerStyle.css" rel="stylesheet" />
+
+
+<style>
+	
+	.tableHolder {
+		display: inline-block;
+		margin-left: 10px;
+		margin-right: 10px;
+		vertical-align: top;
+	}
+	
+	#allHolder{
+		text-align: center;
+		margin-top: 20px;
+		width:100%;
+	}
+	
+	#buttonHolder{
+		vertical-align: top;
+		display: inline-block;
+		text-align: center;
+		margin: auto;
+		max-height: 10px;
+	}
+	
+	#addButton{
+		width: 100px;
+		height: 25px;
+		display: block;
+		margin-bottom: 15px;
+	}
+	
+	#removeButton{
+		width: 100px;
+		height: 25px;
+		display: block;
+		margin-bottom: 15px;
+	}
+	
+	#clearButton{
+		width: 100px;
+		height: 25px;
+		display: block;
+	}
+	
+	#listHeaders{
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	
+	#allItemsList{
+		display: block;
+		max-height: 10%;
+		overflow: hidden;
+	}
+	
+	#toDoListHolder{
+		vertical-align: top;
+	}
+
+	.todoTableHolder{
+		vertical-align: top;
+	}
+	
+	#TableBody{
+		overflow-y: auto;
+		display: block;
+		max-height: 10%;
+		table-layout: fixed;
+	}
+</style>
+
+<script src="toDoView.js"></script>
+
+<html style="max-height: 10px">
+<body onload="loadList()" style="max-height: 10px">
+	<div style="max-height: 10%" id="allHolder">
+	<table style="table-layout:fixed; max-height: 10px">
+		<tr>
+			<td style="width: 40%"><div id="listHeaders"><strong>Every Task</strong><div></td>
+			<td></td>
+			<td style="width: 40%"><div id="listHeaders"><strong>To Do List<strong></div></td>
+		</tr>
+		<tr>
+			<td class="todoTableHolder"><div  id="allItemsList">
+
+			</div>
+			</td>
+			<td style="text-align: center;">
+				<div id="buttonHolder">
+					<div class="operationButton" id="addButton" onclick="addItem()"><b>--></b></div>
+					<div class="operationButton" id="removeButton" onclick="removeItem()"><b><--</b></div>
+					<div class="operationButton" id="clearButton" onclick="clearAll()">Clear</div>
+				</div>
+			</td>
+			<td class="todoTableHolder">
+				<div  id="toDoListHolder">
+
+				</div>
+			</td>
+		</tr>
+	</div>
+	
+</body>
+</html>

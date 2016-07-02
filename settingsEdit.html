@@ -1,0 +1,51 @@
+<style>
+	.operationButton{
+	font-size: 12px;
+	
+	width: 123px;
+	height: 25px;
+	}
+
+	
+	#adjustmentHolder {
+		text-align: center;
+		margin-top: 20px
+	}
+	
+	#buttonHolder {
+		margin-top: 10px;
+		}
+		
+	table{
+		width: 50%;
+		}
+</style>
+
+<link href="innerStyle.css" rel="stylesheet" />
+
+<body onload="loadSettings()">
+	<div id = "adjustmentHolder">
+		<table style="margin: auto; max-width:40%;">
+			<tr>
+				<td>Category Name: </td>
+				<td><input type="text" id="catText"></td>
+			</tr>
+			<tr>
+				<td>Category Color: </td>
+				<td><input type="color" onchange="updateColor()" id="colorPick"></td>
+			</tr>
+		</table>
+		<div id="buttonHolder">
+			<div class="operationButton" id="addButton" onclick="add()"><b>Update</b></div>
+			<div class="operationButton" id="clearButton" onclick="clearBoxes()"><b>Clear</b></div>
+			<div class="operationButton" id="cancelButton" onclick="cancelEdit()"><b>Cancel</b></div>
+		</div>	
+		
+	</div>
+	
+	<div id="noticeHolder">
+		<h2 id="notice" >No Item Selected</h2>
+	</div>
+	
+	<script src="settingsEdit.js"></script>
+</body>
