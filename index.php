@@ -19,7 +19,7 @@
 	</div>
 	<div id="links">
 		<a href = "intro.html">Introduction</a>
-		<a href = "projects.html">Projects</a>
+		<a href = "projects.html">my awesome Projects</a>
 	</div>
 	
 	<hr>
